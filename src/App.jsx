@@ -57,12 +57,20 @@ function App() {
               <a href="#" className="py-2 pr-4">Soup</a>
               <a href="#" className="py-2 pr-4">Grill</a>
             </nav>
-            {/* Title content */}
-            <div className="flex items-center justify-between">
+            
+          </header>
+          {/* Title content */}
+          <div className="flex items-center justify-between mb-16">
               <h2 className="text-xl text-gray-300">Choose dishes</h2>
               <button className="flex items-center gap-4 text-gray-300 bg-[#1F1D2B] py-2 px-4 rounded-lg"><RiArrowDownSLine/> Dine in</button>
+          </div>
+          {/* Content*/}
+          <div>
+            {/* Card */}
+            <div className="bg-[#1F1D2B] p-8 rounded-xl flex flex-col items-center">
+              <img src="filete-pollo.png" className="w-40 h-40 object-cover -mt-20 shadow-2xl rounded-full"/>
             </div>
-          </header>
+          </div>
         </div>
         <div className="lg:col-span-2 fixed lg:static right-0">Carrito</div>
       </main>
